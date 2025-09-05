@@ -1,0 +1,104 @@
+.headerImage {
+    background-image: url('./components/images/road.png');
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.335);
+    background-blend-mode:multiply;
+    padding: 20px;
+    gap: 20px;
+   
+
+   
+}
+.headertitle{
+    color: aquamarine;
+    font-size: 40px;
+}
+
+.ourServicesTitle {
+    color: var(--accent);
+}
+
+
+
+
+.navbars{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+  .navLinks{
+    display: none;
+  }
+  .navbars{
+    display: block;
+}
+
+
+
+
+.engagement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+ 
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: clip;
+}
+.heroImage {
+    width: 60%;
+}
+.engagementinfo{
+    margin-top: 50px;
+    width: 100%;
+}
+.engagementinfo1{
+    width: 40%;
+    }
+
+.projectstyles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: clip;}
+
+    .projectstylesinfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 30px;
+        color: var(--foreground);
+        font-family: Arial, Helvetica, sans-serif;
+        overflow-x: clip;
+        width: 80%;
+    }
+  
+
+}
+
+
+
+  
