@@ -56,7 +56,6 @@ const ContactPage = () => {
         </p>
       </div>
       
-      <hr className="w-[90%] mx-auto text-white mb-12" />
       
       {/* Contact Information and Form Section */}
       <div className="flex flex-wrap mb-16">
