@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className='navbar '>
         <div className='flex flex-col justify-center items-center justify-evenly'>
-  <h1 className='text-yellow-400 font-bold text-2xl font-[Arial, Helvetica, sans-serif] text-center w-full'>S.H.R.M - Safe Haven Restoration Ministries</h1>
+  <h1 className='text-yellow-400 font-bold text-5xl font-[Arial, Helvetica, sans-serif] text-center w-full'>S.H.R.M</h1>
        
        
        <div className='flex justify-around items-center w-full'>
@@ -33,9 +33,10 @@ const Navbar = () => {
         <br />
          <hr className="w-[100%] text-white" />
         <div className='flex flex-col mt-[50px] justify-around items-center w-full'>
-  <h2 className='text-yellow-400 font-bold text-2xl text-center text-[30px] mb-5'>Restoring Hope. Empowering Families. Transforming Lives.</h2>
-  <p className='text-gray-400 font-bold text-center text-[16px] w-2/4 mb-5'>We are dedicated to providing a safe haven for healing, restoration, and spiritual growth. Discover compassionate support and guidance for you and your loved ones.</p>
+  <h2 className='text-yellow-400 font-bold text-2xl text-center text-[30px] mb-5'>Safe Haven Restoration Ministries</h2>
+  <p className='text-white font-bold text-center text-[16px] w-2/4 mb-5'>We are dedicated to providing a safe haven for healing, restoration, and spiritual growth. Discover compassionate support and guidance for you and your loved ones.</p>
   <button className='bg-blue-800 text-white p-2 rounded-lg mt-5 mb-5'>Learn More</button>
+         <hr className="w-[100%] text-white" />
         </div>
         </div>
     </div>
